@@ -55,9 +55,11 @@ export default function HomePage() {
             <Button variant="outline" className="border-odoo-secondary text-odoo-secondary hover:bg-odoo-secondary hover:text-white">
               Contacto
             </Button>
-            <Button className="bg-odoo-secondary hover:bg-purple-700 text-white">
-              Demo a tu e-mail
-            </Button>
+            <Link href="#demo">
+              <Button className="bg-odoo-secondary hover:bg-purple-700 text-white">
+                Demo a tu e-mail
+              </Button>
+            </Link>
           </div>
         </div>
       </header>
@@ -75,9 +77,11 @@ export default function HomePage() {
             </p>
 
             <div className="flex justify-center items-center mb-12">
-              <Button size="lg" className="bg-odoo-secondary hover:bg-purple-700 text-white text-lg px-8 py-4">
-                Demo a tu e-mail
-              </Button>
+              <Link href="#demo">
+                <Button size="lg" className="bg-odoo-secondary hover:bg-purple-700 text-white text-lg px-8 py-4">
+                  Demo a tu e-mail
+                </Button>
+              </Link>
             </div>
 
             <div className="flex items-center justify-center space-x-2 text-sm text-gray-600">
